@@ -1,6 +1,6 @@
 # Markdown Examples
 
-- unordered lists
+- [unordered lists](#unordered-lists)
 - ordered lists
 - text formatting
 - code
@@ -60,11 +60,17 @@ Use double tildes before and after to strikethrough.
 
 ### Inline code
 
-You can print to the terminal using the `puts "hello world"` command.
+You can print to the terminal using a single backtick, such as the (there is a backtick in front of the following codeblock in the markdown) `puts "hello world"` command.
 
 ### Multi line code
 
+Use 3 backticks to print out multiple lines of code to the document, such as the code blocks shown below.
+
 #### Without highlighting
+
+
+Using the three backticks by themselves will result in no code highlighting, as shown below.
+
 ```
 def hello_world
     puts 'hello world'
@@ -72,14 +78,41 @@ end
 ```
 #### With highlighting
 
+To display syntax highlighting, use three backticks follwed by the name of the desired programming language, such as 'ruby'
+
+With Ruby syntax highlighting...
 ```ruby
 def hello_world
     puts 'hello world'
 end
 ```
 
+With Java syntax highlighting...
+
 ```java
 def hello_world
     puts 'hello world'
 end
 ```
+
+## Tables
+
+| Column Heading 1 | Column Heading 2 | Column Heading 3 |
+| --- | --- | --- |
+| Bob | Gary | Anderson |
+
+| First Name | Middle Name | Last Name |
+| :-- | :-: | --: |
+| Bob | Gary | Anderson |
+
+## Links
+
+To add a link within the same document, place the desired link text between square brackets, followed by parentheses and a hash symbol, which will bring up a list of the available reference points in the documents, such as headings, etc.
+
+Example:
+    Unordered Lists
+    [Unordered Lists](#)
+
+   > # Foo
+   > bar baz
+   > baz
