@@ -1,8 +1,8 @@
 # Markdown Examples
 
 - [unordered lists](#unordered-lists)
-- ordered lists
-- text formatting
+- [ordered lists](#ordered-lists)
+- [text formatting](#text-formatting )
 - code
 - tables
 - links
@@ -116,3 +116,4 @@ Example:
    > # Foo
    > bar baz
    > baz
+
